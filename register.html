@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="register.css">
+    <link rel="icon" href="img/лого (1).png">
+</head>
+<body>
+    <main>
+        <ul>
+            <nav>
+                <form method="POST" action="register_handle.php">
+                    <input type="VARCHAR" name="Name" placeholder="Имя" class="Name">
+                    <input type="VARCHAR" name="Password" placeholder="пароль" class="password">
+                    <input type="VARCHAR" name="Passrepeat" placeholder="повторите пароль" class="passrepeat">
+                    <input type="VARCHAR" name="Email" placeholder="электронная почта" class="email">
+                    <input type="submit" name="submit" value="Зарегистрироваться" class="button"></button>
+                    <a href="login.html"><p class="voiti">-если у вас уже есть аккаунт-</p></a>
+                    <a href="index.html"><p class="naglav">-На главную-</p></a>
+                </form>
+                <video autoplay loop muted id="background-video">
+                    <source src="img/fonreg.mp4" type="video/mp4">
+                </video>
+            </nav>
+        </ul>
+        
+    </main>
+</body>
+</html>

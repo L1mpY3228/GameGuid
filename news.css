@@ -1,0 +1,69 @@
+* {
+font-family:'Courier New', Courier, monospace;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+border: none;
+text-decoration: none;
+}
+body{
+  background-image: url(img/fonNEWSS.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+header{
+  display: flex;
+  background-color: black;
+}
+header.p,p,h1{
+  color: white;
+}
+.back{
+  margin-top: 10%;
+  font-size: 25px;
+}
+.freshnews{
+  margin: 5px 0 5px 28%;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.glavnoe {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  margin: 5% 15%;
+}
+.img{
+  object-fit: cover;
+  width: 350px;
+  height: 150px;
+  display: inline-flex;
+  border: solid 1px white;
+  }
+.glavnoe p{
+  color:black
+}
+.update{
+  margin-bottom: 40px;
+  display: inline-flex;
+}
+.infoup{
+  border: solid 1px white;
+  width: 70%;
+  background-color: white;
+}
+.nameup{
+  display: flex;
+  justify-content: center;
+  color: red;
+  font-weight: bold;
+}
+footer{
+  background-color: black;
+  width: 100%;
+  height: 50px;
+}

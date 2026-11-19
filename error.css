@@ -1,0 +1,47 @@
+* {
+font-family:'Courier New', Courier, monospace;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+background-color: transparent;
+text-decoration: none;
+color: #ff0000;
+font-weight: bold;
+}
+.error {
+    display: inline-flex;
+    height: 100vh;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.726);
+}
+h1{
+    font-size: 70px;
+    margin: 0 20%;
+    border-bottom: 2.5px solid red;
+}
+p{
+    margin: 1.5% 20% 4% 20%;
+}
+a{
+    width: 0 10%;
+    margin: 0 20%; 
+    border: 2px solid rgb(255, 0, 0);
+    padding: 3px 5px;
+}
+a:hover{
+    border: 3px solid white;
+    color: white;
+}
+p, a{
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+body{
+    background-image: url(img/крипергрустный.png);
+}
